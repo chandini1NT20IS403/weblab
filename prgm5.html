@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1"
+<title>Document</title>
+</head>
+    <script>
+        var v=prompt("enter virus composition"); 
+        var b=prompt("enter blood composition");
+        a=v.length;
+        B=b.length;
+        i=0;
+        j=0;
+        while(i<a && j<B)
+        {
+            if(v[i]=b[i])
+            {
+                j++;
+            }
+            i++;
+        }
+        if(j=a-1)
+        document.write("positive\n")
+        else
+        document.write("negative\n")
+        </script>
+        <body>
+            </body>
+    
+</html>
